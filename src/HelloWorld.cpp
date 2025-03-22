@@ -6,4 +6,6 @@ int main() {
 	while (window->isOpen()) {
 		window->display();
 	}
+
+	delete window;
 }
